@@ -1,0 +1,81 @@
+/*RESET*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*DESKTOP BODY DESIGN*/
+main {
+    background-color: white;
+    padding: 80px 200px;
+    width: 100%;
+    display: flex;
+    transition: 0.3s ease;
+    font-size: 20px;
+    font-family: cursive;
+}
+.skills1 {
+    width: 100%;
+    color: black;
+    transition: 0.3s ease;
+}
+.skills2 {
+    width: 100%;
+    color: black;
+    transition: 0.3s ease;
+}
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+.html .css .js .ps .ms-office .coreldraw .autocad .revit {
+    padding: 20px;
+    
+}
+.skill-description-container {
+
+}
+.skill-icon-container{
+     font-size: 50px;
+     width: 20%;
+     margin-bottom: 20px;
+     color: black;
+}
+/*MEDIUM BODY*/
+@media (max-width:900px){
+.skills1 {
+    align-items: center;
+    justify-content: center;
+}
+.skills2 {
+    align-items: center;
+    justify-content: center;
+}
+main {
+    width: 100%;
+    padding: 40px;
+}
+.html .css .js .ps {
+    padding: 30px;
+    
+}
+
+}
+
+/*SMALL BODY*/
+@media(max-width: 700px){
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        padding: 40px;
+
+    }
+    .html .css .js .ps {
+        padding: 20px;
+        
+    }
+    
+    }

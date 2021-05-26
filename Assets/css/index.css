@@ -1,0 +1,158 @@
+/*RESET*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*BODY DESKTOP DESIGN*/
+body{
+    
+}
+main .container1 .writeup p{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 15px;
+}
+main .container1 .writeup h2{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+h1{
+    font-size: 40px;
+    color: red;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+.writeup{
+    width: 43%;
+    font-family: cursive;
+    color: black;
+    text-align: right;
+    padding-top: 40px;
+    margin-left: 30px;
+    margin-right: 60px;
+}
+ul {
+    list-style-position: inside;
+}
+.container1 ul li{
+    font-weight: 200;
+    font-size: 20px;
+}
+main div .illustration img {
+    width: 500px;
+    margin-top: 30px;
+}
+.container1 {
+    display: flex;
+    margin-top: 30px;
+}
+
+a {
+    border: none;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: right;
+    padding: 0px;
+}
+button {
+    background-color: red;
+    width: 80px;
+    height: 45px;
+    border-radius: 10px;
+}
+span{
+    font-size: 30px;
+    margin-top: 5px;
+}
+#button-text{
+    font-size: 30px;
+}
+#button-text:hover{
+    color: black;
+}
+.boxed{
+    border-radius: 9px;
+    width: 10%;
+    padding: 20px;
+    justify-self: left;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 40px;
+    
+}
+.twitter, .facebook, .mobile, .email, .linkedin {
+    font-size: 30px;
+    padding-top: 30px;
+    color: rgb(47, 47, 65);
+    justify-content: right;
+}
+
+/*MEDIUM BODY*/
+@media (max-width:900px){
+    body{
+        align-items: center;
+        justify-content: center;
+}
+.container1 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.boxed{
+    display: none;
+}
+.writeup{
+    padding: 40px;
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+    width: 100%;
+}
+ul {
+    font-size: 15px;
+}
+.illustration img{
+    width: 400px;
+    justify-content: center;
+}
+div .illustration{
+    padding-right: 50px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+main div .illustration img {
+    width: 400px;
+    margin-top: 30px;
+}
+}
+/*SMALL BODY*/
+@media(max-width: 700px){
+    .container1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .boxed{
+        display: none;
+    }
+    main div .writeup-p{
+        background-color: red;
+        font-size: 30px;
+    }
+    .illustration img{
+        justify-content: center;
+    }
+    div .illustration{
+        text-align: center;
+        margin-top: 10px;
+    }
+    main div .illustration img {
+        width: 400px;
+        
+    }
+    
+}
