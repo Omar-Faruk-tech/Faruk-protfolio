@@ -12,7 +12,7 @@ main {
     display: flex;
     transition: 0.3s ease;
     font-size: 20px;
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
 }
 .skills1 {
     width: 100%;

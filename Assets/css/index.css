@@ -7,6 +7,7 @@
 
 /*BODY DESKTOP DESIGN*/
 body{
+    font-family: 'Times New Roman', Times, serif;
     
 }
 main .container1 .writeup p{
@@ -27,7 +28,7 @@ h1{
 }
 .writeup{
     width: 43%;
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
     color: black;
     text-align: right;
     padding-top: 40px;
@@ -97,6 +98,7 @@ span{
     body{
         align-items: center;
         justify-content: center;
+        font-family: 'Times New Roman', Times, serif;
 }
 .container1 {
     display: flex;
@@ -135,6 +137,7 @@ main div .illustration img {
     .container1 {
         display: flex;
         flex-direction: column-reverse;
+        font-family: 'Times New Roman', Times, serif;
     }
     .boxed{
         display: none;

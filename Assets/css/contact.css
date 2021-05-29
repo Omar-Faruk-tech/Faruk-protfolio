@@ -10,22 +10,22 @@
     text-align: center;
     justify-items: center;
     padding-top: 30px;
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
     align-items: center;
 }
 
 label {
     color: white;
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 25px;
     padding-top: 10px;
 
 }
 input:placeholder-shown{
-    font-size: 15px;
+    font-size: 25px;
 }
 .comment-box{
-    font-size: 15px;
+    font-size: 25px;
     color: gray;
     min-width: 200px;
     min-height: 100px;
@@ -44,8 +44,8 @@ button{
     text-decoration: none;
     font-weight: 700;
 }
-.twitter, .facebook, .mobile, .email{
-    font-size: 20px;
+.twitter, .facebook, .mobile, .email, .linkedin{
+    font-size: 30px;
 }
 .boxed{
     border: 1px solid black;
@@ -58,7 +58,7 @@ button{
 }
 .boxed p{
     color: white;
-    font-size: 20px;
+    font-size: 25px;
 }
 a{
     text-decoration: none;

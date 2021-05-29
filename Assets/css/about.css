@@ -8,7 +8,7 @@ main .about {
     text-align: center;
     padding: 50px 200px;
     transition: 0.3s ease;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 1.5;
 }
 .about-img{
@@ -27,7 +27,7 @@ main .about {
 .about-me {
     margin-top: 20px;
     text-align: left;
-    font-family: cursive
+    font-family: 'Times New Roman', Times, serif;
 }
 .about-img img{
     justify-content: center;
