@@ -1,161 +1,163 @@
-/*RESET*/
 *{
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
 }
-
-/*BODY DESKTOP DESIGN*/
 body{
-    font-family: 'Times New Roman', Times, serif;
-    
+    background-color: black;
 }
-main .container1 .writeup p{
-    padding-top: 20px;
-    padding-left: 20px;
-    font-size: 15px;
+main{
+    height: 900px;
 }
-main .container1 .writeup h2{
-    font-size: 20px;
-    font-weight: 900;
-}
-
-h1{
+b{
     font-size: 40px;
-    color: red;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
 }
-.writeup{
-    width: 43%;
-    font-family: 'Times New Roman', Times, serif;
-    color: black;
-    text-align: right;
-    padding-top: 40px;
-    margin-left: 30px;
-    margin-right: 60px;
-}
-ul {
-    list-style-position: inside;
-}
-.container1 ul li{
-    font-weight: 200;
-    font-size: 20px;
-}
-main div .illustration img {
-    width: 500px;
-    margin-top: 30px;
-}
-.container1 {
-    display: flex;
-    margin-top: 30px;
-}
-
-a {
-    border: none;
-    text-decoration: none;
+#mytext{
     color: white;
-    font-size: 12px;
-    font-weight: 600;
-    text-align: right;
-    padding: 0px;
+    padding: 30px;
+    width: 50%;
+    float: left;
 }
-button {
-    background-color: red;
-    width: 80px;
-    height: 45px;
-    border-radius: 10px;
+h1{
+    font-weight: 800; 
+    font-size: 40px;   
+    padding: 40px 30px 10px 40px;     
 }
-span{
+button{
+    background-color: yellow;
+    margin: 10px 20px;
+    height: 40px;
+}
+.button-p{
+    margin: 0px 60px;
+}
+#mypix {
+    width: 35%;
+    height: auto;
+    float: left;
+    padding: 40px;
+}
+.hero-content{
     font-size: 30px;
-    margin-top: 5px;
+    font-weight: 500;
+    padding: 10px 30px 20px 40px;
 }
 #button-text{
-    font-size: 30px;
-}
-#button-text:hover{
+    padding: 30px;
+    text-decoration: none;
     color: black;
-}
-.boxed{
-    border-radius: 9px;
-    width: 10%;
-    padding: 20px;
-    justify-self: left;
-    text-align: left;
     font-size: 20px;
-    margin-left: 40px;
-    
-}
-.twitter, .facebook, .mobile, .email, .linkedin {
-    font-size: 30px;
-    padding-top: 30px;
-    color: rgb(47, 47, 65);
-    justify-content: right;
-}
-
-/*MEDIUM BODY*/
-@media (max-width:900px){
-    body{
-        align-items: center;
-        justify-content: center;
-        font-family: 'Times New Roman', Times, serif;
-}
-.container1 {
-    display: flex;
-    flex-direction: column-reverse;
+    font-weight: 600;
 }
 .boxed{
-    display: none;
+    float: right;
+    padding: 30px;
 }
-.writeup{
-    padding: 40px;
-    margin-top: 20px;
-    text-align: center;
-    color: black;
-    width: 100%;
-}
-ul {
-    font-size: 15px;
+.social{
+    padding: 50px 0px;
 }
 .illustration img{
-    width: 400px;
-    justify-content: center;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border: yellow 20px solid;
+    width: 80%;
 }
-div .illustration{
-    padding-right: 50px;
-    text-align: center;
-    justify-content: center;
-    margin-top: 30px;
-}
-main div .illustration img {
-    width: 400px;
-    margin-top: 30px;
-}
-}
-/*SMALL BODY*/
-@media(max-width: 700px){
-    .container1 {
-        display: flex;
-        flex-direction: column-reverse;
-        font-family: 'Times New Roman', Times, serif;
+
+/*MEDIUM SCREEN DESIGN*/
+@media(max-width:1050px){
+    main{
+        height: 1100px;
     }
-    .boxed{
-        display: none;
-    }
-    main div .writeup-p{
-        background-color: red;
-        font-size: 30px;
-    }
-    .illustration img{
-        justify-content: center;
-    }
-    div .illustration{
-        text-align: center;
-        margin-top: 10px;
-    }
-    main div .illustration img {
-        width: 400px;
+    #mytext{
+        width: 35%;
+        padding: 30px;
         
     }
-    
+    #mypix {
+        width: 50%;
+    }
+    h1{
+        font-weight: 800; 
+        font-size: 20px;   
+        padding: 20px 10px 10px 20px;     
+    }
+    .hero-content{
+        font-size: 20px;
+        font-weight: 500;
+        padding: 10px 10px 20px 20px;
+    }
+    button{
+        width: 100%;
+    }
+    #button-text{
+        padding: 0px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    main{
+        height: 850px;
+    }
+    .social{
+        padding: 30px 0px;
+    }
+    .illustration img{
+        border: yellow 10px solid;
+    }
+
+}
+/*SMALLER SCREEN*/
+@media(max-width:870px){
+    #mytext{
+        width: 40%;
+        padding: 30px 10PX;
+    }
+    #mypix {
+        width: 40%;
+    }
+    b{
+        font-size: 18px;
+    }
+    .hero-content{
+        font-size: 17px;
+    }
+    button{
+        width: 150px;
+    }
+    main{
+        height: 750px;
+    }
+    #button-text{
+        padding: 10px;
+        font-size: 15px;
+    }
+}
+/*SMALLEST SCREEN*/
+@media(max-width:670px){
+    .container1{
+        display: flex;
+        flex-direction: column;
+    }
+    #mytext{
+        width: 100%;
+        padding: 30px;
+    }
+    main{
+        height: 1250px;
+    }
+    #mypix {
+        width: 80%;
+    }
+    .boxed{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .button-p{
+        margin: 0px 10px;
+    }
+    .illustration img{
+        border: yellow 10px solid;
+    }
 }
